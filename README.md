@@ -183,3 +183,14 @@ let (person, _) = try personParser.run(str[...])
 ## [fit] Why and when?
 
 ^ For apps, maybe useful for parsing phone numbers, emails, etc. Instead, parser combinators are more useful as a tool to study monadic operations and functional programming. Everything we do deals with text!
+
+---
+
+## References
+
+ - https://github.com/pointfreeco/episode-code-samples/tree/master/0064-parser-combinators-pt3
+ - https://talk.objc.io/episodes/S01E13-parsing-techniques
+ - https://github.com/johnpatrickmorgan/Sparse
+ - https://github.com/davedufresne/SwiftParsec
+ - https://github.com/thoughtbot/Argo
+ - https://github.com/tryswift/TryParsec
